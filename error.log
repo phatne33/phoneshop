@@ -1,0 +1,3 @@
+[17-Apr-2025 09:12:08 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp2\htdocs\phone-shop\includes\menu.php:170) in C:\xampp2\htdocs\phone-shop\views\sanpham.php on line 176
+[17-Apr-2025 09:15:36 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp2\htdocs\phone-shop\includes\menu.php:170) in C:\xampp2\htdocs\phone-shop\views\sanpham.php on line 176
+[2025-07-10 16:01:05] Python script error: Python tìm th

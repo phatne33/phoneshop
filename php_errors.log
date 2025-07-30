@@ -1,0 +1,1310 @@
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[10-Apr-2025 20:42:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\login_customer.php(42): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[10-Apr-2025 20:48:14 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[10-Apr-2025 20:48:15 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\login_customer.php(42): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[10-Apr-2025 20:49:55 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\login_customer.php(42): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[10-Apr-2025 20:53:38 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\login_customer.php(42): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[10-Apr-2025 21:01:04 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:15:43 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:15:44 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:18:52 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:18:53 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:27:50 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:31:05 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(141): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(103): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#18 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#19 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#20 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:31:27 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:31:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:44:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:48:29 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:49:19 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:49:20 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 09:58:47 Europe/Berlin] PHP Deprecated:  Creation of dynamic property Google_AccessToken_Verify::$jwt is deprecated in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php on line 64
+[11-Apr-2025 09:58:48 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(42): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(129): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(87): GuzzleHttp\Client->request('get', 'https://www.goo...', Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(153): GuzzleHttp\Client->__call('get', Array)
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(180): Google_AccessToken_Verify->retrieveCertsFromLocation('https://www.goo...')
+#16 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\AccessToken\Verify.php(86): Google_AccessToken_Verify->getFederatedSignOnCerts()
+#17 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(700): Google_AccessToken_Verify->verifyIdToken('eyJhbGciOiJSUzI...', '987069483021-hb...')
+#18 C:\xampp\htdocs\phone-shop\callback.php(31): Google_Client->verifyIdToken('eyJhbGciOiJSUzI...')
+#19 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 10:02:39 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 10:02:46 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 10:02:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(184): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\xampp\htdocs\phone-shop\callback.php(39): Google_Client->fetchAccessTokenWithAuthCode('4/0Ab_5qlllLXIM...')
+#17 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 10:31:08 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 10:31:09 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(184): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\xampp\htdocs\phone-shop\callback.php(39): Google_Client->fetchAccessTokenWithAuthCode('4/0Ab_5qlllLXIM...')
+#17 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 10:31:17 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetExists($offset) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 249
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetGet($offset) should either be compatible with ArrayAccess::offsetGet(mixed $offset): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 254
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetSet($offset, $value) should either be compatible with ArrayAccess::offsetSet(mixed $offset, mixed $value): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 261
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Model::offsetUnset($offset) should either be compatible with ArrayAccess::offsetUnset(mixed $offset): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Model.php on line 271
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::current() should either be compatible with Iterator::current(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 24
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::next() should either be compatible with Iterator::next(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 40
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::key() should either be compatible with Iterator::key(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 32
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::valid() should either be compatible with Iterator::valid(): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 45
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::rewind() should either be compatible with Iterator::rewind(): void, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 16
+[11-Apr-2025 10:31:27 Europe/Berlin] PHP Deprecated:  Return type of Google_Collection::count() should either be compatible with Countable::count(): int, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Collection.php on line 51
+[11-Apr-2025 10:31:28 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:67
+Stack trace:
+#0 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(67): count(NULL)
+#1 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(107): GuzzleHttp\Handler\CurlFactory->release(Object(GuzzleHttp\Handler\EasyHandle))
+#2 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(72): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(30): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(68): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Middleware.php(57): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\HandlerStack.php(67): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(268): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(95): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Client.php(104): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 C:\xampp\htdocs\phone-shop\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(34): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 C:\xampp\htdocs\phone-shop\vendor\google\auth\src\OAuth2.php(492): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 C:\xampp\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php(184): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle6HttpHandler))
+#16 C:\xampp\htdocs\phone-shop\callback.php(39): Google_Client->fetchAccessTokenWithAuthCode('4/0Ab_5qlkE98eZ...')
+#17 {main}
+  thrown in C:\xampp\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 11:13:26 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:13:26 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:13:27 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:13:27 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:18:13 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:18:13 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:18:13 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:18:14 Europe/Berlin] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.0". You are running 7.4.30. in C:\xampp2\htdocs\phone-shop\vendor\composer\platform_check.php on line 24
+[11-Apr-2025 11:45:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:45:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 11:54:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:51:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:51:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:51:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:51:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:52:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:52:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:52:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:52:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:52:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:52:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:53:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:53:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:54:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:54:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:54:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:54:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:54:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:55:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:55:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:56:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:57:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:58:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 12:59:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 13:00:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:97
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 97
+[11-Apr-2025 13:09:40 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:09:42 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:09:46 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:09:53 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:10:03 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:10:14 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:10:16 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:10:18 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:10:19 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:10:53 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:12:26 Europe/Berlin] PHP Notice:  Undefined variable: googleLoginUrl in C:\xampp2\htdocs\phone-shop\login_customer.php on line 276
+[11-Apr-2025 13:18:30 Europe/Berlin] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp2\htdocs\phone-shop\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php on line 67
+[11-Apr-2025 13:18:30 Europe/Berlin] PHP Notice:  Undefined index: expires_in in C:\xampp2\htdocs\phone-shop\vendor\google\apiclient\src\Google\Client.php on line 470
+PHPMailer Error: SMTP Error: Could not authenticate.
+PHPMailer Error: SMTP Error: Could not authenticate.
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-742375d5a7asm9606372b3a.0 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:3913:c7b8:7c4a:6ed4]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:3913:c7b8:7c4a:6ed4]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742375d5a7asm9606372b3a.0 - gsmtp
+
+PHPMailer Debug [1]: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-742375d5a7asm9606372b3a.0 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-742375d5a7asm9606372b3a.0 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Error: SMTP Error: Could not authenticate.
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e37f23f25sm2755341a91.13 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-30e37f23f25sm2755341a91.13 - gsmtp
+
+PHPMailer Debug [1]: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-30e37f23f25sm2755341a91.13 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e37f23f25sm2755341a91.13 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Error: SMTP Error: Could not authenticate.
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e58ff2964sm670199a91.42 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-30e58ff2964sm670199a91.42 - gsmtp
+
+PHPMailer Debug [1]: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-30e58ff2964sm670199a91.42 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e58ff2964sm670199a91.42 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Exception: SMTP Error: Could not authenticate.
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231c83b052dsm985615ad.61 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+PHPMailer Debug [1]: CLIENT -> SERVER: MAIL FROM:<kanekikentp@gmail.com>
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-231c83b052dsm985615ad.61 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: RCPT TO:<tphat431@gmail.com>
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-231c83b052dsm985615ad.61 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: DATA
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-231c83b052dsm985615ad.61 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Date: Thu, 15 May 2025 10:44:22 +0200
+
+PHPMailer Debug [1]: CLIENT -> SERVER: To: tphat431@gmail.com
+
+PHPMailer Debug [1]: CLIENT -> SERVER: From: Phone Shop <kanekikentp@gmail.com>
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Subject: =?UTF-8?B?TcOjIE9UUCDEkeG7gyDEkeG6t3QgbOG6oWkgbeG6rXQga2jhuql1?=
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Message-ID: <RZG9myLNDMrxWbhQz85Em09ZPDzovXqJQVZkB43ic60@localhost>
+
+PHPMailer Debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+PHPMailer Debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+PHPMailer Debug [1]: CLIENT -> SERVER: 
+
+PHPMailer Debug [1]: CLIENT -> SERVER: 
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                 <div style='font-family: Arial, sans-serif;'>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <h2 style='color: #333;'>Xin chào,</h2>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Chúng tôi nhận được yêu cầu đặt lại mật khẩu cho tài khoản của bạn.</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Mã OTP của bạn là: <strong style='font-size: 18px; color: #000000;'>460532</strong></p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Mã này có hiệu lực trong 5 phút. Vui lòng không chia sẻ mã này với bất kỳ ai.</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này.</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Trân trọng,<br>Phone Shop</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                 </div>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                             
+
+PHPMailer Debug [1]: CLIENT -> SERVER: 
+
+PHPMailer Debug [1]: CLIENT -> SERVER: .
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250 2.0.0 OK  1747298666 d9443c01a7336-231c83b052dsm985615ad.61 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231c83b052dsm985615ad.61 - gsmtp
+
+OTP Mismatch: Input OTP: tphat431@gmail.com, Stored OTP: 460532
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231c17b759csm4095095ad.106 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231c17b759csm4095095ad.106 - gsmtp
+
+PHPMailer Debug [1]: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231c17b759csm4095095ad.106 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231c17b759csm4095095ad.106 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Exception: SMTP Error: Could not authenticate.
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-231c17b759csm4142625ad.106 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231c17b759csm4142625ad.106 - gsmtp
+
+PHPMailer Debug [1]: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-231c17b759csm4142625ad.106 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-231c17b759csm4142625ad.106 - gsmtp
+
+PHPMailer Debug [2]: SMTP Error: Could not authenticate.
+PHPMailer Exception: SMTP Error: Could not authenticate.
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-30e33401bd1sm2994408a91.3 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: STARTTLS
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+PHPMailer Debug [1]: CLIENT -> SERVER: EHLO localhost
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2402:800:63b5:a1b7:30a0:f0f2:2178:e0dd]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: AUTH LOGIN
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+PHPMailer Debug [1]: CLIENT -> SERVER: [credentials hidden]
+PHPMailer Debug [2]: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+PHPMailer Debug [1]: CLIENT -> SERVER: MAIL FROM:<kanekikentp@gmail.com>
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-30e33401bd1sm2994408a91.3 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: RCPT TO:<tphat431@gmail.com>
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-30e33401bd1sm2994408a91.3 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: DATA
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-30e33401bd1sm2994408a91.3 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Date: Thu, 15 May 2025 10:53:03 +0200
+
+PHPMailer Debug [1]: CLIENT -> SERVER: To: tphat431@gmail.com
+
+PHPMailer Debug [1]: CLIENT -> SERVER: From: Phone Shop <kanekikentp@gmail.com>
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Subject: =?UTF-8?B?TcOjIE9UUCDEkeG7gyDEkeG6t3QgbOG6oWkgbeG6rXQga2jhuql1?=
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Message-ID: <gYnw7xRH6nmPtPiwMfpnEKpMU07A91ZIXJviP2ck@localhost>
+
+PHPMailer Debug [1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+PHPMailer Debug [1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+PHPMailer Debug [1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+PHPMailer Debug [1]: CLIENT -> SERVER: 
+
+PHPMailer Debug [1]: CLIENT -> SERVER: 
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                 <div style='font-family: Arial, sans-serif;'>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <h2 style='color: #333;'>Xin chào,</h2>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Chúng tôi nhận được yêu cầu đặt lại mật khẩu cho tài khoản của bạn.</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Mã OTP của bạn là: <strong style='font-size: 18px; color: #000000;'>869633</strong></p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Mã này có hiệu lực trong 5 phút. Vui lòng không chia sẻ mã này với bất kỳ ai.</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này.</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                     <p>Trân trọng,<br>Phone Shop</p>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                                 </div>
+
+PHPMailer Debug [1]: CLIENT -> SERVER:                             
+
+PHPMailer Debug [1]: CLIENT -> SERVER: 
+
+PHPMailer Debug [1]: CLIENT -> SERVER: .
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 250 2.0.0 OK  1747299187 98e67ed59e1d1-30e33401bd1sm2994408a91.3 - gsmtp
+
+PHPMailer Debug [1]: CLIENT -> SERVER: QUIT
+
+PHPMailer Debug [2]: SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-30e33401bd1sm2994408a91.3 - gsmtp
+
+[15-May-2025 11:01:50 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 66
+Database Error: Failed to update tbl_vip_customers for user_id 6
+[15-May-2025 11:01:50 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 66
+Database Error: Failed to update tbl_vip_customers for user_id 8
+[15-May-2025 11:07:49 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:12:11 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:12:11 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\includes\main.php on line 1412
+[15-May-2025 11:13:28 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:15:31 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:15:31 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\includes\main.php on line 1412
+[15-May-2025 11:15:33 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:15:33 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\includes\main.php on line 1412
+[15-May-2025 11:18:59 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:18:59 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\includes\main.php on line 1412
+[15-May-2025 11:29:33 Europe/Berlin] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in C:\xampp2\htdocs\phone-shop\vipcustomer.php on line 68
+Database Error: Failed to update tbl_vip_customers for user_id 7
+[15-May-2025 11:29:33 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\includes\main.php on line 1412
+[24-May-2025 12:43:45 Europe/Berlin] Cố gắng lưu tin nhắn vào tbl_chatbot - user_id: 16, user_message: 'Mã giảm giá', bot_reply: '<I><div class='consultation'>Danh sách mã giảm giá hiện tại:</div><div class='promotion-list'><div class='promotion-item'>Mã: GIAM10 - Giảm: 10.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: SALE500K - Giảm: 500.000 VNĐ (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: IPHONE15 - Giảm: 15.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: SAMSUNG500K - Giảm: 500.000 VNĐ (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: OPPOX8 - Giảm: 10.00% (Hết hạn: 2025-11-30)</div><div class='promotion-item'>Mã: XIAOMI20 - Giảm: 20.00% (Hết hạn: 2025-10-31)</div><div class='promotion-item'>Mã: IPHONE8PLUS - Giảm: 300.000 VNĐ (Hết hạn: 2025-09-30)</div><div class='promotion-item'>Mã: GIẢM CỰC ĐÃ - Giảm: 333.333 VNĐ (Hết hạn: 2025-05-30)</div><div class='promotion-item'>Mã: VIP_DONG - Giảm: 3.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_BAC - Giảm: 5.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_VANG - Giảm: 7.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_KIMCUONG - Giảm: 10.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_LUCBAO - Giảm: 15.00% (Hết hạn: 2025-12-31)</div></div></I>'
+[24-May-2025 12:43:45 Europe/Berlin] Lỗi lưu tin nhắn vào tbl_chatbot: Can't update table 'tbl_chatbot' in stored function/trigger because it is already used by statement which invoked this stored function/trigger - user_id: 16, user_message: 'Mã giảm giá', bot_reply: '<I><div class='consultation'>Danh sách mã giảm giá hiện tại:</div><div class='promotion-list'><div class='promotion-item'>Mã: GIAM10 - Giảm: 10.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: SALE500K - Giảm: 500.000 VNĐ (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: IPHONE15 - Giảm: 15.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: SAMSUNG500K - Giảm: 500.000 VNĐ (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: OPPOX8 - Giảm: 10.00% (Hết hạn: 2025-11-30)</div><div class='promotion-item'>Mã: XIAOMI20 - Giảm: 20.00% (Hết hạn: 2025-10-31)</div><div class='promotion-item'>Mã: IPHONE8PLUS - Giảm: 300.000 VNĐ (Hết hạn: 2025-09-30)</div><div class='promotion-item'>Mã: GIẢM CỰC ĐÃ - Giảm: 333.333 VNĐ (Hết hạn: 2025-05-30)</div><div class='promotion-item'>Mã: VIP_DONG - Giảm: 3.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_BAC - Giảm: 5.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_VANG - Giảm: 7.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_KIMCUONG - Giảm: 10.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_LUCBAO - Giảm: 15.00% (Hết hạn: 2025-12-31)</div></div></I>'
+[24-May-2025 12:43:45 Europe/Berlin] Không thể lưu tin nhắn khuyến mãi vào tbl_chatbot
+[24-May-2025 12:45:41 Europe/Berlin] Cố gắng lưu tin nhắn vào tbl_chatbot - user_id: 16, user_message: 'Flashsale', bot_reply: '<I><div class='consultation'>Danh sách sản phẩm đang Flashsale:</div><div class='product-list'><div class='product-item'>
+                        <div><img src='Uploads/1743848078_ip16titan.webp' alt='iPhone 16 Pro Max' style='max-width: 100px;'></div>
+                        <div>iPhone 16 Pro Max <br> Giá gốc: <s>29.799.000đ</s> <br> Giá Flashsale: 25.925.130đ</div>
+                        <a href='index.php?product_id=11'>Xem sản phẩm</a>
+                    </div><div class='product-item'>
+                        <div><img src='Uploads/1745161441_p90den.webp' alt='Huawei P60 Pro' style='max-width: 100px;'></div>
+                        <div>Huawei P60 Pro <br> Giá gốc: <s>16.990.000đ</s> <br> Giá Flashsale: 14.781.300đ</div>
+                        <a href='index.php?product_id=26'>Xem sản phẩm</a>
+                    </div></div></I>'
+[24-May-2025 12:45:41 Europe/Berlin] Lưu tin nhắn thành công vào tbl_chatbot cho user_id: 16
+[24-May-2025 12:46:43 Europe/Berlin] Cố gắng lưu tin nhắn vào tbl_chatbot - user_id: 16, user_message: 'Mã giảm giá', bot_reply: '<I><div class='consultation'>Danh sách mã giảm giá hiện tại:</div><div class='promotion-list'><div class='promotion-item'>Mã: GIAM10 - Giảm: 10.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: SALE500K - Giảm: 500.000 VNĐ (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: IPHONE15 - Giảm: 15.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: SAMSUNG500K - Giảm: 500.000 VNĐ (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: OPPOX8 - Giảm: 10.00% (Hết hạn: 2025-11-30)</div><div class='promotion-item'>Mã: XIAOMI20 - Giảm: 20.00% (Hết hạn: 2025-10-31)</div><div class='promotion-item'>Mã: IPHONE8PLUS - Giảm: 300.000 VNĐ (Hết hạn: 2025-09-30)</div><div class='promotion-item'>Mã: GIẢM CỰC ĐÃ - Giảm: 333.333 VNĐ (Hết hạn: 2025-05-30)</div><div class='promotion-item'>Mã: VIP_DONG - Giảm: 3.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_BAC - Giảm: 5.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_VANG - Giảm: 7.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_KIMCUONG - Giảm: 10.00% (Hết hạn: 2025-12-31)</div><div class='promotion-item'>Mã: VIP_LUCBAO - Giảm: 15.00% (Hết hạn: 2025-12-31)</div></div></I>'
+[24-May-2025 12:46:43 Europe/Berlin] Lưu tin nhắn thành công vào tbl_chatbot cho user_id: 16
+[24-May-2025 12:46:52 Europe/Berlin] Cố gắng lưu tin nhắn vào tbl_chatbot - user_id: 16, user_message: 'Flashsale', bot_reply: '<I><div class='consultation'>Danh sách sản phẩm đang Flashsale:</div><div class='product-list'><div class='product-item'>
+                        <div><img src='Uploads/1743848078_ip16titan.webp' alt='iPhone 16 Pro Max' style='max-width: 100px;'></div>
+                        <div>iPhone 16 Pro Max <br> Giá gốc: <s>29.799.000đ</s> <br> Giá Flashsale: 25.925.130đ</div>
+                        <a href='index.php?product_id=11'>Xem sản phẩm</a>
+                    </div><div class='product-item'>
+                        <div><img src='Uploads/1745161441_p90den.webp' alt='Huawei P60 Pro' style='max-width: 100px;'></div>
+                        <div>Huawei P60 Pro <br> Giá gốc: <s>16.990.000đ</s> <br> Giá Flashsale: 14.781.300đ</div>
+                        <a href='index.php?product_id=26'>Xem sản phẩm</a>
+                    </div></div></I>'
+[24-May-2025 12:46:52 Europe/Berlin] Lưu tin nhắn thành công vào tbl_chatbot cho user_id: 16
+[24-May-2025 12:46:54 Europe/Berlin] Cố gắng lưu tin nhắn vào tbl_chatbot - user_id: 16, user_message: 'flashsale', bot_reply: '<I><div class='consultation'>Danh sách sản phẩm đang Flashsale:</div><div class='product-list'><div class='product-item'>
+                        <div><img src='Uploads/1745160156_13txanhla.webp' alt='Xiaomi 13T Pro' style='max-width: 100px;'></div>
+                        <div>Xiaomi 13T Pro <br> Giá gốc: <s>14.990.000đ</s> <br> Giá Flashsale: 13.041.300đ</div>
+                        <a href='index.php?product_id=27'>Xem sản phẩm</a>
+                    </div><div class='product-item'>
+                        <div><img src='Uploads/1745161338_realme127mau.webp' alt='Realme 12 Pro' style='max-width: 100px;'></div>
+                        <div>Realme 12 Pro <br> Giá gốc: <s>5.990.000đ</s> <br> Giá Flashsale: 5.211.300đ</div>
+                        <a href='index.php?product_id=28'>Xem sản phẩm</a>
+                    </div></div></I>'
+[24-May-2025 12:46:54 Europe/Berlin] Lưu tin nhắn thành công vào tbl_chatbot cho user_id: 16
+[24-May-2025 12:46:56 Europe/Berlin] Cố gắng lưu tin nhắn vào tbl_chatbot - user_id: 16, user_message: 'flashsale', bot_reply: '<I><div class='consultation'>Danh sách sản phẩm đang Flashsale:</div><div class='product-list'><div class='product-item'>Hiện không có sản phẩm Flashsale nào.</div></div></I>'
+[24-May-2025 12:46:56 Europe/Berlin] Lưu tin nhắn thành công vào tbl_chatbot cho user_id: 16
+[21-Jul-2025 09:57:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 09:57:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 09:58:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:08:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:09:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:09:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:11:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:11:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:11:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:11:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:11:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:12:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:12:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Google_Client' not found in C:\xampp2\htdocs\phone-shop\login_customer.php:88
+Stack trace:
+#0 {main}
+  thrown in C:\xampp2\htdocs\phone-shop\login_customer.php on line 88
+[21-Jul-2025 10:39:13 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\login_customer.php on line 204
+[21-Jul-2025 10:45:45 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\login_customer.php on line 205
+[21-Jul-2025 10:47:32 Europe/Berlin] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in C:\xampp2\htdocs\phone-shop\login_customer.php on line 206

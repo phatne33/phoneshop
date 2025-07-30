@@ -1,0 +1,136 @@
+/* Reset mặc định */
+
+
+/* Header */
+
+
+/* Navbar */
+nav {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Bảng Bootstrap */
+.table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Nút Bootstrap */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Form nhập liệu */
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul li {
+        margin-bottom: 5px;
+    }
+}
+textarea.form-control {
+    height: 300px;
+    min-height: calc(1.5em + .75rem + calc(var(--bs-border-width)* 2));
+}/* Đảm bảo hình ảnh và màu sắc hiển thị theo hàng ngang */
+.images-colors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-colors-container div {
+    text-align: center;
+}
+
+/* Kiểu ảnh sản phẩm */
+.images-colors-container img {
+    width: 80px; /* Điều chỉnh kích thước theo nhu cầu */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.images-colors-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Kiểu cho badge màu sắc */
+.color-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .images-colors-container img {
+        width: 60px;
+    }
+
+    .color-badge {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
+
+.images-colors-wrapper{
+    display: flex;}

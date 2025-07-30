@@ -1,0 +1,504 @@
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => ba1eebf580366b8112915fcdcb56074ae1eeb9910b46bf30734bfaa656ee2b0d
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 10
+    [email] => phatne@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 136412f321009d0ded317cd8a5bea3b237bb480aa6652370080824f8ad3c88f8
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 8
+    [email] => minhnhatttt1102@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 40039ee32167a70203a61864ea271aef3bde9fea98f1741797e46ca76edb4f85
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 8
+    [email] => minhnhatttt1102@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => c5521c1efe4d986a51439b48a6568030db6c07aeec9cdc62a65c739e7c9d4c69
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 948e8b0ebca7c2a36aaa87d9ba9a7aa100632277460db0a875c5c892e897431a
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => ed2cf2df1985f6717beea6b50dbfe4a817134ef6e7a81b86cb3c040be5b44f1a
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 13d5a60a050671374d9c87bdd2ae7a84a1cd0017226d3310ff1ac0e447b0893e
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 15232449f226a6d12f4439750fbf2fd48abd7e60a41950b2ba4b2245bfe3fd40
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => f5d73a943bfcddce595d577d5ce51046403b88e0eb58ffea8fe5aa79a21f6769
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 11
+    [email] => ty24122004@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 0b3c05d41e9ff96a39bdf526c3b54b4199a8936326e46ae8a47dbf43fc02b3f6
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 3b8731dcda17e9bd2721048de3c0a91b068cd171fa58ff1ddab1b94d66b70be0
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 8c0c02d707727d4ce9e263e73f855d3cfb794dec234acb96f8cf9b960fbabe5e
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 4b061ac587f006fb443558581bf6f3d445ca809b990ccc239f53e2cb93926d4d
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 115722d4536d748433e98cf1f3786331df8a72162dda98ccba2c662b278f3736
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => e767e6ff3597f4725d0a0f63ddbd87a1678764417ff73836d818bdf2c1288cd0
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => c297bd3f13ccc002bedda9b5052e42e87b94e8e4cab295e26d63e1b08a0a5e83
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 814fd65ca4cd0b35c1d99aa9bb7350d7eed24ad83d988b14ae117637238461ad
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 102fc3e9aa7cb8b41fb3372cc99a44c13218a9e3d3abb8c6f2cecf8191e16834
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 0f719994cf65dbb1594108b07628b48a7471bba11f45f1784c6a4fd5982365a7
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 94334834873130ad2c89c7f9c199b963f6052d9f13ef9eb046f8984f87510d62
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 9fee60767e8f2f533dfeff298f9255f4b9d85414720f7e65dc9ffdb175caf6e8
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 38acd1d4cc2691d8c12a4c8384464e9a7912736117d879884ef0ca2554226cb2
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => ce36bdc91df378ad3a2562fcec792e446353b09213dddce5d29ff026a66d3b26
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => fddb48af42b7042a4675736800b305271b7e8dad58c2f89ce95a8bb9224f5146
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 0e275fe0f22178ea9b3926df19d936fd2dbb7cbcf94527e0ff0c09872ee6d391
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 0e275fe0f22178ea9b3926df19d936fd2dbb7cbcf94527e0ff0c09872ee6d391
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 5d47c39eaed869e86348f3efad912b59e80bed064968ee63010e1f628a8ad99e
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => f98524f6738132790c758ecc3707cea232905443bd899b59da30118a52046572
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 443a3163c0278730a1a6c3bef44bb4d55244deb18597f41a05faadd568bce5cb
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 583a3fc749c179f06dd2df787d5d2f34283299d4d3d338b61198ee11c4490a67
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 554b6cc7740b850959cc5f82cfa9acdfd22030c9804f44929994acd2a1e2cf15
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 1a35fd67622c4a991c344b7a42d4bfd61879804c5fbd85683a9d905f0f56e574
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [forgot_password_email] => tphat431@gmail.com
+    [forgot_password_step] => reset_password
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => f73bcec8658d91fdc6e9c5d3cee7a53f1a21cbdcf0505af0040a34f157bc04e7
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => b853396754f8814bcc3de28c9c9612175a1b1c2f4de9ab844ba16b103e9f76d2
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+    [admin_id] => 6
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 0e030b7feeb1bd12ea7f89a9b95f13e5428b740ae00c1390a0586852d9059762
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [admin_id] => 2
+    [csrf_token] => 6c0986c93e17317a603afbbf476fd89f95fbb0e818160a4c405ed07ada734094
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 16eb771b963c5cfee498998fd82fd930affcc11f360835682fd4200c32b2c109
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 8abec762d4768908bea13b55ef7d7daa9e7273b8f25cf32af5b1ee3f118485ce
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => ccb9fbee8149b2680ff4fd2030c0f917fb250b29af5fee8d20c7bc7b0cef4f63
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => c09a108377611286a7e4cf2d85702b97123850cc5cd79bdd957bec93203cec9a
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 16
+    [email] => tphat431@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 8d061af6160fdad7ac96b2007e73f4d4cbc0c373608c1059f4f7eba71ef81848
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 9fad84879f09a1b3c96b827b8a1959a4a51c456bba26b6b8dcbdfc6b1bae94d6
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 90f91cedf6fef5023f1b3af274972d7f94ea31ae42bb84838430a419c8a28174
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 0e632b6c8bd851f30f1eff848cc9a07c5f3228a2f2a6f6a5ca4975f6b274cda0
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => a3bd6a2298a99f9daf2a13333ee2ff2cd2bb6e99b6ac010cd6d81f9bcd00e7f7
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 48a32f1f51c760574626938c512eb6d028fdb7ae3b10dba547db512095dc2a96
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => cdf563840f8c7762b33f2645f215018d3b267be66db520f2cfa85a0f5d2ef9c6
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => a9d105a68d29d0943e895a6634aa8ab043861e33d46c491c6f0af7e76cadc84e
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => c4fa426568eb1041460b29d1e02a32989285c98b2ea27df8c3329fa3e93eb325
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 4d97a72762b68576721b56e8de52efe7c7cad97900d32ed7c7e0a782f0a9eab8
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+
