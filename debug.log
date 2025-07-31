@@ -502,3 +502,13 @@ Session sau khi đăng nhập: Array
     [role] => user
 )
 
+Session sau khi đăng nhập: Array
+(
+    [csrf_token] => 7c55623139c33d242e14f56b847154eff48da6c1e790a2fa1ebbabe6f5da045a
+    [login_attempts] => 0
+    [lockout_time] => 0
+    [user_id] => 7
+    [email] => kanekikentp@gmail.com
+    [role] => user
+)
+

@@ -15,29 +15,32 @@ $conn->set_charset("utf8mb4");
 // Hàm gọi API Gemini với Guzzle 6.2
 function callGeminiAPI($prompt, $apiKey) {
     $client = new Client();
-    $models = ['gemini-1.5-flash', 'gemini-1.5-pro']; // Fallback mô hình
-    $lastError = null;
-
-    foreach ($models as $model) {
-        try {
-            $response = $client->post("https://generativelanguage.googleapis.com/v1/models/$model:generateContent", [
-                'headers' => [
-                    'Content-Type' => 'application/json',
-                ],
-                'query' => ['key' => $apiKey],
-                'body' => json_encode([
-                    'contents' => [
-                        ['parts' => [['text' => $prompt]]]
-                    ]
-                ])
-            ]);
-            $data = json_decode($response->getBody(), true);
-            return $data['candidates'][0]['content']['parts'][0]['text'] ?? "Không nhận được phản hồi từ Gemini API.";
-        } catch (Exception $e) {
-            $lastError = "Lỗi khi gọi Gemini API ($model): " . $e->getMessage();
+    $model = 'gemini-2.0-flash'; // Sử dụng mô hình gemini-2.0-flash
+    try {
+        $response = $client->post("https://generativelanguage.googleapis.com/v1beta/models/$model:generateContent", [
+            'headers' => [
+                'Content-Type' => 'application/json',
+            ],
+            'query' => ['key' => $apiKey],
+            'body' => json_encode([
+                'contents' => [
+                    ['parts' => [['text' => $prompt]]]
+                ]
+            ])
+        ]);
+        $data = json_decode($response->getBody(), true);
+        $text = $data['candidates'][0]['content']['parts'][0]['text'] ?? "Không nhận được phản hồi từ Gemini API.";
+        error_log("API call successful with model: $model"); // Ghi log để theo dõi
+        return $text;
+    } catch (GuzzleHttp\Exception\ClientException $e) {
+        $statusCode = $e->getResponse()->getStatusCode();
+        if ($statusCode == 429) {
+            return "Lỗi: Quá nhiều yêu cầu. Vui lòng đợi vài phút hoặc kiểm tra quota tại https://console.cloud.google.com.";
         }
+        return "Lỗi khi gọi Gemini API ($model): " . $e->getMessage();
+    } catch (Exception $e) {
+        return "Lỗi không xác định khi gọi Gemini API: " . $e->getMessage();
     }
-    return $lastError ?? "Lỗi khi gọi Gemini API: Không thể kết nối với bất kỳ mô hình nào.";
 }
 
 // Hàm lấy lịch sử trò chuyện gần nhất
@@ -243,6 +246,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
+    $apiKey = 'AIzaSyDCvWyVqkIfhL-7gF7nqHVMxYJURzdqk3c'; // API key mới
     $response = '';
     if (stripos($query, 'mã giảm giá') !== false || stripos($query, 'khuyến mãi') !== false) {
         $response = getPromotions($conn);
@@ -267,13 +271,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $chatHistory = getRecentChatHistory($user_id, $conn, 3);
             $prompt = "Lịch sử trò chuyện gần nhất:\n$chatHistory\n---\nNgười dùng hỏi: $query\n\nDưới đây là một số sản phẩm phù hợp:\n$productText\nDựa vào thông tin trên, hãy trả lời ngắn gọn, tự nhiên, thân thiện như một nhân viên bán hàng. Nếu người dùng hỏi về 'giá rẻ', hãy đề xuất các sản phẩm có giá hợp lý trong phân khúc (dưới 8 triệu), tập trung vào hiệu năng chơi game (chip mạnh, màn hình mượt, pin trâu).";
             
-            $llmResponse = callGeminiAPI($prompt, 'AIzaSyAvXWE6BtTv_4pLi3cDsiU-0FifYpgiwrs');   
+            $llmResponse = callGeminiAPI($prompt, $apiKey);   
             $response = '<div class="llm-response">' . htmlspecialchars($llmResponse) . '</div>' . $html;
         }
     } else {
         $chatHistory = getRecentChatHistory($user_id, $conn, 3);
         $prompt = "Lịch sử trò chuyện gần nhất:\n$chatHistory\n---\nNgười dùng hỏi: $query\n\nHãy trả lời ngắn gọn, tự nhiên, thân thiện như một nhân viên bán hàng.";
-        $response = callGeminiAPI($prompt, 'AIzaSyAvXWE6BtTv_4pLi3cDsiU-0FifYpgiwrs');
+        $response = callGeminiAPI($prompt, $apiKey);
     }
 
     $sql = "INSERT INTO tbl_chatbot (user_id, user_message, bot_reply, sender_type, status) VALUES (?, ?, ?, 'bot', 'success')";
