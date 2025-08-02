@@ -30,7 +30,23 @@ Và còn nhiều các chức năng khác
 - Import sql/phonedb.sql để chạy website
 - Truy cập localhost/phone-shop để tới website
 
-Tóm lại : vì đây là website đầu tiền của tôi làm cảm thấy tâm huyết từ đầu mới học code, nên sẽ có những sai xót như một vài lỗi nhỏ, bị bể responsive và các modal, tổ chức các file chưa tốt loằn ngoằng, chưa hoàn toàn 
-áp dụng Ajax cho các chức năng của admin, việc ẩn các File như API và Google Auth vào biến môi trường ENV, nên mong sẽ được bỏ qua vì nếu lập trình lại 1 website như vậy cũng mất không ít thời gian.
+Đây là **website đầu tiên** mình tự tay phát triển khi mới bắt đầu học lập trình. Dù còn một số hạn chế như:
+- Giao diện chưa responsive hoàn toàn
+- Một số modal chưa hoạt động mượt
+- File tổ chức chưa gọn (còn loằn ngoằn)
+- Ajax chưa được áp dụng cho tất cả chức năng admin
+- Biến môi trường `.env` chưa sử dụng cho các API key
 
+Nhưng mình rất tâm huyết và cố gắng hoàn thiện từng chút.  
+Nếu có cơ hội viết lại từ đầu, mình tin rằng sẽ cải thiện tốt hơn nhiều.
+
+👉 Mời bạn tham khảo dự án tiếp theo của mình tại:  
+🔗 [https://github.com/phatne33/websitequanlybenhvien](https://github.com/phatne33/websitequanlybenhvien)  
+(Dự án này sử dụng Ajax gần như toàn bộ, tổ chức file rõ ràng và có hệ thống toast thông báo đầy đủ.)
+
+---
+
+## 🤝 Cảm ơn
+
+Rất mong nhận được góp ý và phản hồi để mình hoàn thiện hơn 💙
 
