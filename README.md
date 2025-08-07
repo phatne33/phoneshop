@@ -29,6 +29,8 @@ Và còn nhiều các chức năng khác
 
 - Import sql/phonedb.sql để chạy website
 - Truy cập localhost/phone-shop để tới website
+- mật khẩu admin: phat08355@gmail.com , Phat01234@
+
 
 Đây là **website đầu tiên** mình tự tay phát triển khi mới bắt đầu học lập trình. Dù còn một số hạn chế như:
 - Giao diện chưa responsive hoàn toàn
