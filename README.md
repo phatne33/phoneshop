@@ -15,8 +15,9 @@ Dự án website bán hàng sử dụng PHP thuần và MySQL (quản lý bằng
   - Xem danh sách sản phẩm
   - Tìm kiếm sản phẩm
   - Giỏ hàng (thêm/xoá sản phẩm)
-  - Đặt hàng
+  - Đặt hàng (có thông báo xác nhận gửi về mail)
   - Đăng nhập bằng tài khoản google, đổi mật khẩu bằng OTP gửi về email
+  
 - ✅ Trang admin:
   - Quản lý danh mục
   - Quản lý sản phẩm
